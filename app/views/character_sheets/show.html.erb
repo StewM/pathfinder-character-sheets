@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Charactername:</strong>
+  <%= @character_sheet.CharacterName %>
+</p>
+
+<%= link_to 'Edit', edit_character_sheet_path(@character_sheet) %> |
+<%= link_to 'Back', character_sheets_path %>
