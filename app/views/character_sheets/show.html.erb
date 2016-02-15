@@ -1,8 +1,10 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Charactername:</strong>
+  <strong>Character Name:</strong>
   <%= @character_sheet.CharacterName %>
+  <strong>Player Name:</strong>
+  <%= @character_sheet.PlayerName %>
 </p>
 
 <%= link_to 'Edit', edit_character_sheet_path(@character_sheet) %> |
